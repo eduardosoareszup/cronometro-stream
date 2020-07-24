@@ -1,0 +1,31 @@
+body{
+	background-color: #00FF12; 
+}
+
+@font-face {
+    font-family: "big";
+    src: url(fonts/big_noodle_titling.ttf) format("truetype");
+
+}
+
+#time {
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-bottom: auto; 
+	color: #2e306c; 
+	 /* white; */
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+	src: url(fonts/big_noodle_titling.ttf) format("truetype");
+}
+
+#blur {
+	color: #2e306c; 
+	font-size: 100px;
+	filter: blur(3px);
+	-webkit-filter: blur(10px);
+	font-family: 'Oswald', sans-serif;
+	src: url(fonts/big_noodle_titling.ttf) format("truetype");
+	margin-left: -250px;
+}
